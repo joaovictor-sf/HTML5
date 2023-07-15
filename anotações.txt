@@ -1,0 +1,66 @@
+Vc pode criar um basico html digitando "!" no visual studio
+
+Tags:
+    Head:
+        <!DOCTYPE html> Diz o tipo do Documento, nesse caso documento html
+        <html> Marca o começo do codigo
+        <head> é onde fica as informações que não aparecem diretamente para o úsuario
+        <title> É o título da página
+    Body:
+        <body> fica as informações que aparecem diretamente para o usuario
+        <h1> a <h6> são tags de cabeçaçho, quando maior o número menor a fonte
+        <br> Faz uma quebra de linha
+        <p> Cria paragrafos
+        <a href=""> Cria um link, que pode ser externo(colocando um link completo) ou interno(pagina.html)
+    Modificação de texto:
+        <b> ou <strong> deixa em negrito, aconselhavel: <strong>
+        <i> ou <em>  em itálico, o indicado é o <em>em</em>
+        <u> deixa com underline
+        <strike> deixa com um risco de erro
+        <, >, &, ", ', ¢, £, ¥, €, ©, ® e o espaço em branco( ) 
+        são caracteres que não podem ser escritos normalmente em html por terem alguma função
+        para podermos ultiliza-los temos que ultilizar troca-los respectivamente por:
+        &lt;, &gt;, &amp;, &quot;, &apos;, &cent;, &pound;, &yen;, &euro;, &copy;, &reg;, e o espaço em branco(&nbsp;)
+    Imagens:
+        <img> Para ultilizar imagens em sites nós ultilizamos essa tag
+        Dentro dessa tag nós colocamos alguns atributos
+        <img src="Aqui vc coloca o endereço/link da imagem" height="altura" width="largura" alt="descrição">
+        <img src="" alt="" style="Podemos colocar o comprimento e largura desejado dentro de style (width: 287px;height: 625px)">
+    Listas:
+        <ul> Lista não ordenada
+        <ol> Lista ordenada
+        <li> Item da lista ordenada/não ordenada
+        <dl> Lista com descrição
+        <dt> Item da lista com descrição
+        <dd> descrição do item
+    Tabelas:
+        <table style=""> É onde ficará a tabela, 
+        o style pode ser ultilizado para definir o tamanho da tabela
+        <tr> Linha da tabela
+        <th> são títulos de itens da tabela, ele centraliza e deixa em negrito o que estiver escrito
+        <td> coluna da tabela
+        <td rowspan=""> rowspan dz quantas linhas o item vai ocupar
+        <td colspan=""> colspan dz quantas colunas o item vai ocupar
+    Formularios:
+        <form action="processa.php"> é onde ficará o formulário
+        action serveria para mandar as informações do formulario para por exemplo um codigo php
+
+        <input type=""> É onde começa a festa do formulario, possuindo diversões atributos e variações de type
+
+        <input type="text" name="login"> Uma area para colocar um pequeno texto, custama ser ultilizado para login
+
+        <input type="password" name="senha"> Uma area para colocar a senha que visualmente troca as letras por '*'
+
+        <input type="submit" value="Logar"> Uma botão para enviar os valores ao sistemas, 
+        value é o que estará escrito no botão
+
+        <input type="radio" name="sexo" value="M"> Ultilizado para escolher uma opção entre algumas escolhidas
+        <input type="radio" name="sexo" value="F"> Como sexo
+
+        <input type="checkbox" name="linguagem" value="P"> Ultilizado quando é possivel escolher mais que uma opção
+        <input type="checkbox" name="linguagem" value="J">
+
+        <select name="estado" id=""> Cria uma lista com opções rotativas
+        <option value="">BA</option> Opções da lista
+        <textarea name="" id="" cols="30" rows="10"> Uma area de texto a qual o tamanho pode ser ajustado pelo usuario
+        cols serve para modificar a largura padrão e rows a altura padrão

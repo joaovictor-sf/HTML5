@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <h3>Login</h3>
+    <!-- <form> é onde ficará o formulário -->
+    <form action="processa.php"><!-- action serveria para mandar as informações do formulario para por exemplo um codigo php -->
+        Login <br>
+        <input type="text" name="login"><br><!-- No input é onde podemos fazer o usuario com diferentes tipos(types) -->
+        Senha <br>
+        <input type="password" name="senha"><br><br>
+        <input type="submit" value="Logar">
+    </form>
+
+    <h3>Cadastre-se</h3>
+
+    <form>
+        Login <br>
+        <input type="text" name="login"><br>
+        Sexo <br>
+        <input type="radio" name="sexo" value="M"> Masculino <br>
+        <input type="radio" name="sexo" value="F"> Feminino <br><br>
+        Linguagens que sabe <br>
+        <input type="checkbox" name="linguagem" value="P"> Python
+        <input type="checkbox" name="linguagem" value="J"> Java
+        <input type="checkbox" name="linguagem" value="H"> HTML5
+        <input type="checkbox" name="linguagem" value="C3"> CSS3
+        <input type="checkbox" name="linguagem" value="C"> C
+        <br><br>
+        Estado <br>
+        <select name="estado" id=""><!-- Select conficura uma listinha que podemos escolher um item -->
+            <option value="">BA</option><!-- Opções da lista -->
+            <option value="">RJ</option>
+            <option value="">SP</option>
+            <option value="">MG</option>
+            <option value="">MA</option>
+        </select>
+        <br><br>
+        Observações <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <!-- Uma area de texto -->
+        <br><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+</body>
+</html>

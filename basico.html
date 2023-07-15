@@ -1,0 +1,66 @@
+<!--Vc pode criar um basico html digitando "!" no visual studio-->
+
+<!DOCTYPE html><!--Tipo do Documento, nesse caso documento html-->
+
+<html><!--O inicio do codigo html-->
+
+    <head><!--O head é onde fica as informações que não aparecem diretamente para o úsuario-->
+
+        <meta charset="UTF-8"><!--Serve para melhor uso de acentuação-->
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Esta meta é exclusiva para Internet Explorer
+        O Internet Explorer não suporta o doctype para HTML5, 
+        então provavelmente ele vai acabar indo para um modo chamado Quirks Mode.
+        Quirks mode faz o site ser interpretado como uma versão mais antiga do IE, 
+        o que pode fazer teu site falhar, 
+        então ao ao usar X-UA-Compatible com o valor IE=edge ele vai forçar o navegador renderizar com a mais recente.-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--The viewport is the user's visible area of a web page.
+        This gives the browser instructions on how to control the page's dimensions and scaling.
+        The width=device-width part sets the width of the page to follow the screen-width of the device 
+        (which will vary depending on the device).
+        The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.-->
+
+        <title>title é o título da página</title><!--O Título da página-->
+
+    </head>
+
+    <body><!--No body fica as informações que aparecem diretamente para o usuario-->
+        
+        <h1>Título h1</h1><!--h1 a h6 são tags de cabeçaçho-->
+        <h2>Título h2</h2><!--Quando maior o número menor a fonte-->
+        <h3>Título h3</h3>
+        
+        A tag br serve para quebar linha.<br><!--TAG <br> significa break, 
+            serve para fazer uma quebra de linha--> 
+        Etiam hendrerit tincidunt diam, vitae iaculis urna porttitor sed. 
+        Nam vel purus aliquet, tempus nulla id, faucibus dolor.
+
+        <p>A tag p serve para criar paragrafos</p><!--A tag <p> serve para criar paragrafos-->
+        <hr><!--Cria uma linha horizontal-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <p>Tem duas maneiras de deixar o texto em negrito, que é ultilizando a <b>tag 
+            b</b> ou <strong>strong</strong>. Strong é o aconselhavel<!--O aconselhavel é strong-->
+        </p>
+        
+        <p>Para deixar em itálico tem duas opçoes: <i>i</i> e <em>em</em>, o indicado é o <em>em</em></p>
+        <!--Para deixar em Itálico ultilize a tag <em>-->
+        <p>para criar uma <u>underline se ultiliza a tag u</u> e quando vc quer criar um 
+            <strike>traço de errado se ultiliza strike</strike></p>
+            <!--Para deixar o texto em underline use <u>-->
+            <!--Para deixar o texto com um risco de erro use <strike>-->
+        
+        <h1>Carácteres especiais:</h1>
+
+        No html tem alguns Carácteres que possuem deveres especificos e 
+        por isso não podem ser digitados normalmente em um texto, esses caracteres são:
+        <br>
+        &lt;, &gt;, &amp;, &quot;, &apos;, &cent;, &pound;, &yen;, &euro;, &copy;, &reg;, e o espaço em branco(&nbsp;)
+        <br>
+        Para maís informações <a href="https://www.w3schools.com/html/html_entities.asp">Clique aqui</a>
+
+    </body>
+
+</html>

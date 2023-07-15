@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table, th, td {
+        border: 2px solid black; 
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+
+<body>
+    <h3>Tabela</h3>
+    <table style="width: 100%;">
+        <!-- é onde ficará a tabela -->
+        <tr>
+            <!-- Linha da tabela -->
+            <th>Codigo</th><!-- Coluna da tabela -->
+            <th>Produto</th><!-- <th> é são títulos da tabela, ele centraliza e deixa em negrito o que estiver escrito -->
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Celular</td>
+            <td>R$ 1.000</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$ 3.000</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td><!-- rowspan dz quantas linhas vai ocupar, no caso duas linhas -->
+            <td colspan="2">10 reais</td><!-- colspan dz quantas colunas vai ocupar, no caso duas colunas -->
+        </tr>
+        <tr>
+            <td colspan="2">12 reais</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td colspan="2">4000 reais</td>
+        </tr>
+    </table>
+</body>
+
+</html>
