@@ -66,8 +66,8 @@ O Título da página
 
 É onde ficam as informações que aparecem diretamente para o usuário.
 
- ## Tags mais simples do body
- <a name = "tags_mais_simples></a>
+ ## Tags mais simples do body 
+ <a name = "tags_mais_simples"></a>
 
  ```
         <h1>Título h1</h1><!--h1 a h6 são tags de cabeçalho-->
