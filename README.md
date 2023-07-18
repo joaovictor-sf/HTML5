@@ -3,8 +3,12 @@
 ## Table of Contents
 + [About](#about)
 + [Tags básicas](#tags_basicas)
-+ [Usage](#usage)
-+ [Contributing](../CONTRIBUTING.md)
++ [Tags mais simples do body](#Tags_mais_simples)
++ [Modificadores de Texto](#modificadores_de_texto)
++ [Imagem](#imagem)
++ [Listas](#listas)
++ [Tabela](#tabela)
++ [Formulário](#formulario)
 
 ## About <a name = "about"></a>
 <b>HTML5</b> (HyperText Markup Language 5) é a quinta versão da linguagem de marcação utilizada para estruturar e apresentar conteúdo na web. Foi lançado pela primeira vez em 2014 e desde então se tornou a base fundamental para a construção de páginas web modernas.
@@ -39,16 +43,14 @@ Diz o tipo do Documento, nesse caso documento html.
 O lang=”” é onde será colocado a linguagem padrão do projeto, <b>en</b> é inglês, <b>pt-br</b> é portugues.
 
 ### &lt;head&gt;
- <a name = "usage"></a>
  O <b>head</b> é onde ficam as informações que não aparecem diretamente para o usuário.
 
 ### &lt;meta charset="UTF-8"&gt;
- <a name = "usage"></a>
 <meta charset="UTF-8">
 A tag <meta> representa diversos tipos de metadados que não podem ser expressos utilizando as tags &lt;title>, &lt;base>, &lt;link>, &lt;style>, e &lt;script>.
 
  ### &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
- <a name = "usage"></a>
+
  A <b>viewport</b> é a área visível da página web para o usuário. Isso fornece instruções para o navegador sobre como controlar as dimensões e a escala da página. 
 
 <b>width=device-width</b> define a largura da página para seguir a largura da tela do dispositivo (que pode variar de acordo com o dispositivo). 
@@ -57,15 +59,15 @@ A tag <meta> representa diversos tipos de metadados que não podem ser expressos
 
 
  ### &lt;title&gt;
- <a name = "usage"></a>
+
 O Título da página
 
  ### &lt;body&gt;
- <a name = "usage"></a>
+
 É onde ficam as informações que aparecem diretamente para o usuário.
 
  ## Tags mais simples do body
- <a name = "usage"></a>
+ <a name = "tags_mais_simples></a>
 
  ```
         <h1>Título h1</h1><!--h1 a h6 são tags de cabeçalho-->
@@ -106,44 +108,42 @@ O Título da página
  ```
 
  ### &lt;h1&gt; a &lt;h6&gt;
-<a name = "usage"></a>
+
 
 São tags de cabeçalho, quando maior o número menor a fonte
 
  ### &lt;br&gt;
- <a name = "usage"></a>
+
 
 Faz uma quebra de linha
 
  ### &lt;p&gt;
- <a name = "usage"></a>
+
 Cria parágrafos.
 
  ### &lt;a href=""&gt;
- <a name = "usage"></a>
+
 Criar um link, que pode ser externo(colocando um link completo) ou interno(pagina.html). A sigla href significa: hyperlink reference.
 
- ## Modificadores de Texto
+ ## Modificadores de Texto<a name = "modificadores_de_texto"></a>
 
  ### Negrito
- <a name = "usage"></a>
 
 Pode ser utilizado as tags &lt;b> ou &lt;strong>. A recomendada é  &lt;strong>.
 
  ### Itálico
- <a name = "usage"></a>
 As tags são &lt;i> ou &lt;em>, o indicado é o &lt;em>.
 
  ### Underline
- <a name = "usage"></a>
+
 A tag &lt;u>.
 
 ### Risco na palavra
- <a name = "usage"></a>
+
 A tag &lt;strike>.
 
  ### Caracteres sem valor
- <a name = "usage"></a>
+
 <, >, &, ", ', ¢, £, ¥, €, ©, ® e o espaço em branco( )
 
 São caracteres que não podem ser escritos normalmente em html por terem alguma função para podermos utilizá-los temos que ultilizar troca-los respectivamente por: &lt - &gt - &amp - &quot - &apos - &cent - &pound - &yen - &euro - &copy - &reg - e o espaço em branco(&nbsp)
@@ -151,7 +151,7 @@ São caracteres que não podem ser escritos normalmente em html por terem alguma
 Adicione ";" no final.
 
 ## Imagem
- <a name = "usage"></a>
+ <a name = "imagem"></a>
 
 Para colocar uma imagem no site utilizando unicamente o html utiliza-se a tag &lt;img>
 
@@ -162,20 +162,19 @@ Ex1: &lt;img src="Aqui vc coloca o endereço/link da imagem" height="altura" wid
 Ex2: &lt;img src="" alt="" style="Podemos colocar o comprimento e largura desejado dentro de style (width: 287px;height: 625px)">
 
  ## Listas
- <a name = "usage"></a>
+ <a name = "listas"></a>
 Para criar uma lista utilizam-se diversas tags simultaneamente.
 
 Primeiro é decidido o tipo de lista, existem 3 tipos: ordenada, não ordenada e com descrição.
 
 ### Ordenadas e não ordenadas
- <a name = "usage"></a>
 
 Para criar uma lista ordenada ou não ordenada usa-se, respectivamente, as tags &lt;ol> e &lt;ul>.
 
 Para adicionar um item a lista, utiliza-se a tag &lt;li>.
 
  ### Com descrição
- <a name = "usage"></a>
+
 Para criar uma lista com descrição usa-se a tag &lt;dl>.
 
 Para adicionar um item à lista, utiliza-se a tag &lt;dt>.
@@ -183,7 +182,7 @@ Para adicionar um item à lista, utiliza-se a tag &lt;dt>.
 Para adicionar uma descrição ao item, usa-se a tag &lt;dd>.
 
 ## Tabela
- <a name = "usage"></a>
+ <a name = "tabela"></a>
  
 &lt;table style=""> É onde ficará a tabela, o style pode ser utilizado para definir o tamanho da tabela
 
@@ -198,11 +197,10 @@ Para adicionar uma descrição ao item, usa-se a tag &lt;dd>.
 &lt;td colspan=""> colspan dz quantas colunas o item vai ocupar
 
 ## Formulário
- <a name = "usage"></a>
+ <a name = "formulario"></a>
 Existem diversos tipos de formulários na internet, de telas de login à atividades. Assim como as listas, há diversas tags utilizadas na criação de formulários.
 
 ### Tags
- <a name = "usage"></a>
 
 &lt;form action="processa.php"> é onde ficará o formulário action serviria para mandar as informações do formulário para por exemplo um código php.
 
