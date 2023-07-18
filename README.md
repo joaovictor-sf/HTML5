@@ -3,7 +3,7 @@
 ## Table of Contents
 + [About](#about)
 + [Tags básicas](#tags_basicas)
-+ [Tags mais simples do body](#Tags_mais_simples)
++ [Tags mais simples do body](#tags_mais_simples)
 + [Modificadores de Texto](#modificadores_de_texto)
 + [Imagem](#imagem)
 + [Listas](#listas)
