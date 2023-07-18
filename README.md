@@ -2,7 +2,7 @@
 
 ## Table of Contents
 + [About](#about)
-+ [Getting Started](#tags_basicas)
++ [Tags básicas](#tags_basicas)
 + [Usage](#usage)
 + [Contributing](../CONTRIBUTING.md)
 
